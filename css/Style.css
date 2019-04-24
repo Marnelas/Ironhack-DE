@@ -1,17 +1,131 @@
-/*estilos sin ordenar*/
-.empresas img {
-  width: 8em;
-}
+/*estilos genéricos*/
+
 body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
 
 }
+h2{
+  text-align: center;
+}
+/*Estilos mas concretos*/
+.navigator{
+  display: flex;
+  justify-content: space-between;
+}
+.fa-bar{
+  display:none
+}
+.navigator img {
+  height: 100px;
+}
+.navigator a {
+  color: black
+}
+.navigator nav img {
+  height: 1em;
+}
+.navigator li {
+  list-style: none;
+  display: inline-block;
+}
 .hero {
   text-align: center;
   height: 70vh;
   background-image: url(../imagenes/background.png);
+  color: white; 
 }
 .hero .row{
   height: 70vh;
 }
+.hero a{
+  color: white;
+  background-color: rgb(0, 132, 255);
+border-radius: 15%;
+padding: 1em 6em;
+display:inline-block;
+}
+.hero p {
+  margin-bottom: 3em;
+}
+.empresas hr {
+  color: grey;
+}
+
+.empresas {
+  color: grey;
+  font-size: .8em;
+  text-align: center;
+  font-weight: 100;
+
+}
+.empresas img {
+  opacity: .3;
+  width: 8em;
+
+}
+.estadisticas {
+  font-size: 2.4em;
+
+}
+.estadisticas img {
+  width: auto;
+  height: 11em;
+  display: inline-block;
+}
+.estadisticas .quote {
+  height: 2em;
+  display: inline-block;
+}
+
+
+figure p{
+  font-size: .6em;
+  display: inline-block;
+}
+
+.motivos h2{
+  font-size: 2.4em;
+
+}
+.motivos h3{
+  font-size: 2em;
+  
+}
+.motivos {
+  font-size: 0.9em;
+  font-weight: 100;
+}
+.courses {
+background-color: rgb(179, 180, 182);
+font-size:2em;
+font-weight: 100;
+padding-bottom:4em;
+text-align: center;
+
+}
+.courses p{
+font-size: 0.5em;
+text-align: left;
+}
+.courses a{
+  color: rgb(0, 132, 255);
+  border:1px solid rgb(0, 132, 255);
+  padding: 0.5em;
+  display:inline-block;
+  margin-top: 1em;
+  text-align: center;
+}
+@media(max-width:768px) {
+  .fa-bar {
+    display: inline-block;
+  }
+  .navigator ul{
+    display:none
+  }
+
+
+}
+
+
+
