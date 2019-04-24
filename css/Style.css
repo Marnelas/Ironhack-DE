@@ -1,0 +1,17 @@
+/*estilos sin ordenar*/
+.empresas img {
+  width: 8em;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+
+}
+.hero {
+  text-align: center;
+  height: 70vh;
+  background-image: url(../imagenes/background.png);
+}
+.hero .row{
+  height: 70vh;
+}
