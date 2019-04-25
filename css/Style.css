@@ -64,7 +64,7 @@ display:inline-block;
 
 }
 .empresas img {
-  opacity: .3;
+  filter: grayscale(100%);
   width: 8em;
 
 }
