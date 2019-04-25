@@ -13,7 +13,7 @@ h2{
   display: flex;
   justify-content: space-between;
 }
-.fa-bar{
+.navigator i{
   display:none
 }
 .navigator img {
@@ -28,11 +28,15 @@ h2{
 .navigator li {
   list-style: none;
   display: inline-block;
+  font-size: 1.5em;
 }
 .hero {
   text-align: center;
   height: 70vh;
   background-image: url(../imagenes/background.png);
+  background-repeat:no-repeat;
+  background-size:auto;
+  background-position: center; 
   color: white; 
 }
 .hero .row{
@@ -117,8 +121,9 @@ text-align: left;
   text-align: center;
 }
 @media(max-width:768px) {
-  .fa-bar {
+  .navigator i {
     display: inline-block;
+
   }
   .navigator ul{
     display:none
